@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="20px"
+    android:layout_gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.opengl.GLSurfaceView
+        android:layout_width="1000px"
+        android:layout_height="1700px"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/show_surface"
+        android:layout_marginTop="20px"
+        android:background="@color/black"
+        ></android.opengl.GLSurfaceView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/camera_btn_foreground"
+            android:id="@+id/open_close_btn">
+        </Button>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/change_btn_foreground"
+            android:id="@+id/change_btn">
+        </Button>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/choose_btn_foreground"
+            android:id="@+id/choose_btn">
+        </Button>
+        <Button
+            android:layout_width="200px"
+            android:layout_height="200px"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/save_btn_foreground"
+            android:id="@+id/save_btn">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
